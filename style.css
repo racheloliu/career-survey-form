@@ -1,0 +1,227 @@
+<style>
+
+@import url('https://fonts.googleapis.com/css?family=Nanum+Gothic:400,700,800&display=swap');
+
+html, body * { box-sizing: border-box; font-family: 'Nanum Gothic', sans-serif;}
+
+body {
+  background:
+    linear-gradient(
+      #42f5c5,
+      #23dbaa,
+      #1bab85) ;
+  text-align: center;
+  min-width: 300px;
+  background-size: cover; 
+}
+
+.labels {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 5px;
+  margin-top: 10px;
+  text-align: right;
+  vertical-align: top;
+  width: 40%;
+  font-family: 'Nanum Gothic', sans-serif;
+  font-size: 14px;
+}
+
+.right {
+  display: inline-block;
+  text-align: left;
+  width: 40%;
+  vertical-align: middle;
+  padding: 10px;
+}
+
+#outside-form {
+  background-color: white;
+  margin: 0 auto;
+  width: 55%;
+  max-width: 900px;
+  height: 100%;
+  max-height: 1200px;
+  padding: 60px;
+  padding-top: 30px;
+  border-radius: 20px;
+}
+
+#title {
+  font-family: 'Nanum Gothic', sans-serif;
+  font-weight: 800;
+  font-size: 40px;
+  color: white;
+  text-align: center;
+}
+
+#description {
+  text-align: center;
+  font-family: 'Nanum Gothic', sans-serif;
+  font-size: 18px;
+  font-weight: 700px;
+  font-style: italic;
+}
+
+#survey-form {
+ background-color: white;
+ border-radius: 6px;
+}
+
+
+#name {
+  font-family: 'Nanum Gothic', sans-serif;
+  color: #220e29;
+  display: block;
+  left: -50px;
+  margin-left: px;
+  padding-bottom: 2px;
+}
+
+.input-field {
+  height: 15px;
+  width: 200px;
+  padding: 5px;
+  margin: 0px;
+  border: 1px solid #c0c0c0;
+  border-radius: 1px;
+}
+
+#email {
+}
+
+#number {
+}
+
+#name-label {
+ width: 86%;
+ float: left;
+
+}
+
+#email-label {
+ width: 86%;
+ float: left;
+}
+
+#number-label {
+ width: 86%;
+ float: left;
+}
+
+dropdown {
+  padding: 5px;
+  border-color: #42f5c5;
+  border-radius: 4px;  
+  font-family: 'Nanum Gothic', sans-serif;
+  color: #220e29;
+  display: block;
+  left: -80px;
+  margin-left: px;
+  padding-bottom: 2px;
+}
+
+#value {
+  font-family: 'Nanum Gothic', sans-serif;
+  font-size: 14px;
+  color: #220e29;
+  text-align: left;
+  display: block;
+  left: -50px;
+  margin-left: px;
+  padding-bottom: 2px;
+}
+
+
+#skills {
+  font-family: 'Nanum Gothic', sans-serif;
+  color: #220e29;
+  display: block;
+  left: -80px;
+  margin-left: 50px;
+  padding-bottom: 2px;
+}
+
+
+#currentlylooking {
+  font-family: 'Nanum Gothic', sans-serif;
+  color: #220e29;
+  display: block;
+  position: relative;
+  left: -220px;
+  margin-left: 15px;
+  padding-bottom: 2px;
+}
+
+.radioyesno, input[type="radio"] {
+  float: left; 
+  position: relative;
+  left: -5px;
+  margin-left: -25px;
+  display: block;
+  padding-bottom: 10px;
+}
+
+.userRatings,
+input[type="checkbox"] {
+  float: left;
+  margin-right: 5px;
+}
+
+.radio {
+  position: relative;
+  left: -25px;
+  margin-left: 15px;
+  display: block;
+  padding-bottom: 10px;
+  font-family: 'Nanum Gothic', sans-serif;
+  font-size: 14px;
+}
+
+.checkbox {
+  font-family: 'Nanum Gothic', sans-serif;
+  color: #220e29;
+  display: block;
+  position: relative;
+  left: -92px;
+  margin-left: 50px;
+  padding-bottom: 10px;
+
+}
+
+#textarea {
+  font-family: 'Nanum Gothic', sans-serif;
+  color: #220e29;
+  border-radius: 4px;
+  border-color: #42f5c5;
+  padding: 10px; 
+  font-size: 14px;
+}
+
+#comments {
+  font-family: 'Nanum Gothic', sans-serif;
+  color: #220e29;
+  display: block;
+  position: relative;
+  left: -50px;
+  margin-left: 15px;
+  padding-bottom: 2px;
+}
+
+#submit {
+  background-color: #42f5c5;
+  font-family: 'Nanum Gothic', sans-serif;
+  color: white;
+  font-size: 20px;
+  font-weight: 700;
+  text-align: center;
+  border-radius: 6px;
+  border: 0px;
+  padding: 15px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 5em;
+  height: 3em;
+}
+
+</style>

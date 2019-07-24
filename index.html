@@ -1,0 +1,101 @@
+
+<h1 id="title">Career Survey</h1>
+<div id="outside-form">
+    <p id="description">Fill out information below:</p>
+  <br>
+    <form id="survey-form">
+      <div>
+         <div class="labels">
+            <label id="name-label" for="name">Name:</label>
+          </div>
+        <div class="right">
+          <input type="text" id="name" class="input-field" required placeholder="First & Last Name">
+        </div>
+      </div>
+    
+    <div>
+      <div class="labels">
+        <label id="email-label" for="email">Email:</label>
+      </div>
+     <div class="right">
+      <input type="email" name="email" id="email" class="input-field" required placeholder="Email">
+      </div>
+    </div>
+      
+    <div>
+      <div class="labels">
+        <label id="number-label" for="number">Number years relevant experience:
+        </label>
+      </div>
+      <div class="right">
+        <input type="number" name="tel" id="number" min="1" max="5" class="input-field" required placeholder="Number">
+      </div>
+    </div>
+     
+      <div>
+          <div class="labels">
+            <label id="name-label">Select:</label>
+          </div>
+        <div class="right">
+          <select id="dropdown" class="dropdown">
+            <option disabled value="select-level">Select Level</option>
+            <option value="intern">Intern</option>
+            <option value="entry-level">Entry-Level</option>
+            <option value="mid-level">Mid-Level</option>
+            <option value="senior-level">Senior-Level</option>
+          </select>
+        </div>
+      </div>
+      
+      
+    <div>
+      <div class="labels">
+        <label id="userRating">Are you currently looking for a job?</label>
+      </div>
+      <div class="right">
+        <ul style="list-style: none;">
+          <li class="radio"><label>Yes<input name="radio-buttons" value="1" type="radio" class="userRatings"></label></li>
+          <li class="radio"><label>No<input  name="radio-buttons" value="2" type="radio" class="userRatings"></label></li>
+        </ul> 
+      </div>
+    </div>
+      
+  <div class>
+    <div class="labels">
+      <label for="skills">Check any or all of the languages you have experience with:</label>
+    </div>
+      <div class="right">
+      <ul id="value">
+          <li class="checkbox"><label><input name="prefer" value="1" type="checkbox" class="userRatings">HTML5</label>
+          <li class="checkbox"><label><input name="prefer" value="2" type="checkbox" class="userRatings">CSS</label>
+          <li class="checkbox"><label><input name="prefer" value="3" type="checkbox" class="userRatings">JavaScript</label>
+          <li class="checkbox"><label><input name="prefer" value="4" type="checkbox" class="userRatings">Java</label>
+          <li class="checkbox"><label><input name="prefer" value="5" type="checkbox" class="userRatings">Python</label>
+          <li class="checkbox"><label><input name="prefer" value="6" type="checkbox" class="userRatings">C</label>
+          <li class="checkbox"><label><input name="prefer" value="7" type="checkbox" class="userRatings">C#</label>   
+          <li class="checkbox"><label><input name="prefer" value="8" type="checkbox" class="userRatings">C++</label>   
+          <li class="checkbox"><label><input name="prefer" value="9" type="checkbox" class="userRatings">.NET</label>
+          <li class="checkbox"><label><input name="prefer" value="10" type="checkbox" class="userRatings">Swift</label>
+          <li class="checkbox"><label><input name="prefer" value="11" type="checkbox" class="userRatings">SQL</label>
+          <li class="checkbox"><label><input name="prefer" value="12" type="checkbox" class="userRatings">Ruby</label>
+          <li class="checkbox"><label><input name="prefer" value="13" type="checkbox" class="userRatings">PHP</label> 
+      </ul>
+    </div>
+  </div>
+    
+  <div>
+    <div class="labels">
+      <label id="comments">Write any comments, questions, or additional information here: </label>
+    </div>
+
+   <div class="right">
+      <div>
+        <textarea id="comments" class="input-field"  placeholder="Type here..."></textarea>
+      </div>
+   </div>
+  </div>
+      <button id="submit" type="submit">Submit</button>
+
+
+  </form>
+</div>
